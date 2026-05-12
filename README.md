@@ -10,7 +10,7 @@ Made for players and enthusiasts who want quick experimental tweaks through a si
 
 ---
 
-![AimSync Preview](assets/preview.png)
+![AimSync Preview](assets/new.png)
 
 ## 🚀 Launch
 
