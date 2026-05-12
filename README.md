@@ -13,13 +13,13 @@ It was made to quickly apply basic Windows tweaks through a clean CMD interface,
 
 ---
 
-## Preview
+## 🖼️ Preview
 
 ![CleanOS Gaming Preview](assets/preview.png)
 
 ---
 
-## Launch Command
+## 🚀 Launch Command
 
 Run in **PowerShell as Administrator**:
 
@@ -31,33 +31,33 @@ This command will download and launch the latest CleanOS Gaming script.
 
 ---
 
-## Features
+## ✨ Features
 
 CleanOS Gaming includes a small set of gaming-focused tweaks organized into simple presets.
 
-### High-End Tweaks
+### ⚡ High-End Tweaks
 
 Applies gaming-related registry and system tweaks focused on stronger PCs.
 
-### Mid-End Tweaks
+### 🎮 Mid-End Tweaks
 
 Applies a more balanced preset for mid-range systems.
 
-### RAM Allocation
+### 🧠 RAM Allocation
 
 Applies a Windows memory allocation adjustment based on the amount of RAM selected by the user.
 
-### Disable Gaming Overlay
+### 📴 Disable Gaming Overlay
 
 Disables and removes Xbox/Game Bar related overlay features that may run in the background.
 
-### Lightweight Interface
+### 🖥️ Lightweight Interface
 
 Runs through a simple CMD menu with no installation required.
 
 ---
 
-## Important
+## ⚠️ Important
 
 This script changes Windows settings, registry values and system gaming features.
 
@@ -67,7 +67,7 @@ A restart is recommended after applying tweaks.
 
 ---
 
-## Recommended Before Using
+## ✅ Recommended Before Using
 
 Before applying tweaks, it is recommended to:
 
@@ -78,26 +78,10 @@ Before applying tweaks, it is recommended to:
 
 ---
 
-## Disclaimer
+## 📌 Disclaimer
 
 CleanOS Gaming is provided as-is.
 
 I am not responsible for any system issues, broken features, broken apps, game problems or unexpected behavior caused by using this script.
 
 Use at your own risk.
-
----
-
-## Repository
-
-Official GitHub:
-
-```txt
-https://github.com/AdrianFawkes/cleanos-gaming
-```
-
-Official command:
-
-```powershell
-irm "https://is.gd/cleanos" | iex
-```
