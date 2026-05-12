@@ -1,21 +1,21 @@
-# CleanOS Gaming
+# AimSync
 
-![Version](https://img.shields.io/badge/version-0.5%20beta-blue)
+![Version](https://img.shields.io/badge/version-1.02%20Stable-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows-brightgreen)
-![Type](https://img.shields.io/badge/type-Experimental%20Gaming%20Tweaks-purple)
-![Status](https://img.shields.io/badge/status-beta-orange)
+![Focus](https://img.shields.io/badge/focus-Low%20Latency-purple)
+![Status](https://img.shields.io/badge/status-stable-green)
 
-**CleanOS Gaming** is a simple Windows optimization script with experimental tweaks focused on gaming, low latency and overall system responsiveness.
+**AimSync** is a lightweight Windows tweaking tool focused on competitive gaming, low latency, system responsiveness and additional gaming utilities.
 
-It was made for competitive players and enthusiasts who want to test a cleaner Windows setup with fewer background gaming overlays, basic latency-related tweaks and quick preset-based optimization.
+It was made for players and enthusiasts who want a quick way to apply experimental Windows gaming tweaks through a simple CMD interface.
 
-> Experimental, simple and made for quick use.
+> Simple, fast and focused on responsiveness.
 
 ---
 
 ## 🖼️ Preview
 
-![CleanOS Gaming Preview](assets/preview.png)
+![AimSync Preview](assets/preview.png)
 
 ---
 
@@ -24,16 +24,16 @@ It was made for competitive players and enthusiasts who want to test a cleaner W
 Run in **PowerShell as Administrator**:
 
 ```powershell
-irm "https://is.gd/cleanos" | iex
+irm "https://is.gd/aimsync" | iex
 ```
 
-This command will download and launch the latest CleanOS Gaming script.
+This command will download and launch the latest AimSync script.
 
 ---
 
 ## ✨ Features
 
-CleanOS Gaming includes a small set of experimental gaming-focused tweaks organized into simple presets.
+AimSync includes a small collection of gaming-focused tweaks and utilities organized into simple sections.
 
 ### ⚡ High-End Tweaks
 
@@ -51,19 +51,39 @@ Applies a Windows memory allocation adjustment based on the amount of RAM select
 
 Disables and removes Xbox/Game Bar related overlay features that may run in the background.
 
-### 🖥️ Lightweight Interface
+### 🧰 Toolbox
 
-Runs through a simple CMD menu with no installation required.
+Downloads and opens additional tweak-related utilities, including small manuals for each tool.
+
+### 🔋 Power Plan
+
+Downloads, imports and applies the AimSync power plan as the active Windows power profile.
+
+### ⏱️ Timer Resolution
+
+Creates a silent startup holder to keep Timer Resolution active in the background.
+
+### 🌐 Route Optimizer
+
+Applies DSCP 46 QoS policies for popular online game executables.
 
 ---
 
 ## ⚠️ Important
 
-These tweaks are experimental and results may vary depending on your hardware, Windows version, drivers and games.
+AimSync contains experimental Windows tweaks.
 
-This script changes Windows settings, registry values and system gaming features.
+Results may vary depending on your hardware, Windows version, drivers, network, router, ISP and the game being played.
 
-Some tweaks may affect Xbox App, Game Bar, Game Pass games, Microsoft Store games or other Windows gaming features.
+Some tweaks may affect:
+
+- Xbox App
+- Game Bar
+- Game Pass games
+- Microsoft Store games
+- Windows gaming features
+- Power plan behavior
+- Network QoS policies
 
 A restart is recommended after applying tweaks.
 
@@ -82,8 +102,8 @@ Before applying tweaks, it is recommended to:
 
 ## 📌 Disclaimer
 
-CleanOS Gaming is provided as-is.
+AimSync is provided as-is.
 
-I am not responsible for any system issues, broken features, broken apps, game problems or unexpected behavior caused by using this script.
+I am not responsible for any system issues, broken features, broken apps, game problems, network issues or unexpected behavior caused by using this script.
 
 Use at your own risk.
