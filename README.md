@@ -12,8 +12,6 @@ Made for players and enthusiasts who want quick experimental tweaks through a si
 
 ![AimSync Preview](assets/preview.png)
 
----
-
 ## 🚀 Launch
 
 Run in **PowerShell as Administrator**:
