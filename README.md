@@ -2,14 +2,14 @@
 
 ![Version](https://img.shields.io/badge/version-0.5%20beta-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows-brightgreen)
-![Type](https://img.shields.io/badge/type-Gaming%20Tweaks-purple)
+![Type](https://img.shields.io/badge/type-Experimental%20Gaming%20Tweaks-purple)
 ![Status](https://img.shields.io/badge/status-beta-orange)
 
-**CleanOS Gaming** is a simple Windows optimization script focused on gaming, latency reduction and lightweight debloat.
+**CleanOS Gaming** is a simple Windows optimization script with experimental tweaks focused on gaming, low latency and overall system responsiveness.
 
-It was made to quickly apply basic Windows tweaks through a clean CMD interface, without needing to manually edit registry files or run multiple commands.
+It was made for competitive players and enthusiasts who want to test a cleaner Windows setup with fewer background gaming overlays, basic latency-related tweaks and quick preset-based optimization.
 
-> Clean, simple and made for quick use.
+> Experimental, simple and made for quick use.
 
 ---
 
@@ -33,15 +33,15 @@ This command will download and launch the latest CleanOS Gaming script.
 
 ## ✨ Features
 
-CleanOS Gaming includes a small set of gaming-focused tweaks organized into simple presets.
+CleanOS Gaming includes a small set of experimental gaming-focused tweaks organized into simple presets.
 
 ### ⚡ High-End Tweaks
 
-Applies gaming-related registry and system tweaks focused on stronger PCs.
+Applies a more aggressive preset aimed at stronger PCs, focused on gaming priority, latency-related values and Windows multimedia behavior.
 
 ### 🎮 Mid-End Tweaks
 
-Applies a more balanced preset for mid-range systems.
+Applies a more balanced preset for mid-range systems, keeping the same competitive gaming focus with safer values.
 
 ### 🧠 RAM Allocation
 
@@ -58,6 +58,8 @@ Runs through a simple CMD menu with no installation required.
 ---
 
 ## ⚠️ Important
+
+These tweaks are experimental and results may vary depending on your hardware, Windows version, drivers and games.
 
 This script changes Windows settings, registry values and system gaming features.
 
