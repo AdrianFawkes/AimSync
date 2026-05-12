@@ -1,0 +1,44 @@
+2026-05-09 00:31:46Z [Information]: Migrated UseNativeDriverStore setting: True -> DriverStoreOption: Native
+2026-05-09 00:31:46Z [Information]: Settings migration completed successfully
+2026-05-09 00:31:47Z [Information]: ---------------------------------------------------------------
+2026-05-09 00:31:47Z [Information]: Rapr started
+2026-05-09 00:31:47Z [Information]: Verificando armazenamento de drivers...
+2026-05-09 00:31:48Z [Information]: 15 pacote(s) de driver encontrado(s)
+2026-05-09 00:31:57Z [Information]: Selecionado(s) 1 driver(s). Tamanho total: 191 KB.
+oem7.inf - nvhda.inf_amd64_9074816b745183b4 - 191 KB
+2026-05-09 00:31:59Z [Information]: Selecionado(s) 2 driver(s). Tamanho total: 275 KB.
+oem7.inf - nvhda.inf_amd64_9074816b745183b4 - 191 KB
+oem5.inf - nvvad.inf_amd64_74667003396014ef - 84 KB
+2026-05-09 00:32:01Z [Information]: Selecionado(s) 3 driver(s). Tamanho total: 987 KB.
+oem14.inf - nvppc.inf_amd64_0fb3e9fb3fdb0d20 - 712 KB
+oem7.inf - nvhda.inf_amd64_9074816b745183b4 - 191 KB
+oem5.inf - nvvad.inf_amd64_74667003396014ef - 84 KB
+2026-05-09 00:32:08Z [Information]: Selecionado(s) 4 driver(s). Tamanho total: 1 MB.
+oem14.inf - nvppc.inf_amd64_0fb3e9fb3fdb0d20 - 712 KB
+oem7.inf - nvhda.inf_amd64_9074816b745183b4 - 191 KB
+oem5.inf - nvvad.inf_amd64_74667003396014ef - 84 KB
+oem0.inf - prnms009.inf_amd64_8cdc889b3f73e3da - 77 KB
+2026-05-09 00:33:09Z [Information]: Excluindo pacote(s) de driver...
+oem7.inf - nvhda.inf_amd64_9074816b745183b4 - 191 KB
+oem5.inf - nvvad.inf_amd64_74667003396014ef - 84 KB
+oem14.inf - nvppc.inf_amd64_0fb3e9fb3fdb0d20 - 712 KB
+oem0.inf - prnms009.inf_amd64_8cdc889b3f73e3da - 77 KB
+2026-05-09 00:33:11Z [Information]: Exclusão de oem7.inf (nvhda.inf_amd64_9074816b745183b4) bem sucedido.
+2026-05-09 00:33:11Z [Information]: Exclusão de oem5.inf (nvvad.inf_amd64_74667003396014ef) bem sucedido.
+2026-05-09 00:33:12Z [Information]: Exclusão de oem14.inf (nvppc.inf_amd64_0fb3e9fb3fdb0d20) bem sucedido.
+2026-05-09 00:33:12Z [Error]: System.ComponentModel.Win32Exception (0x80004005): Unknown error (0xe000023d)
+   em Rapr.Utils.SetupAPI.DeleteDriver(DriverStoreEntry driverStoreEntry, Boolean forceDelete)
+   em Rapr.Utils.NativeDriverStore.DeleteDriver(DriverStoreEntry driverStoreEntry, Boolean forceDelete)
+2026-05-09 00:33:12Z [Information]: Falha ao excluir oem0.inf (prnms009.inf_amd64_8cdc889b3f73e3da).
+2026-05-09 00:33:13Z [Error]: Erro ao remover alguns pacotes do armazenamento de drivers.
+Exclusão de oem7.inf (nvhda.inf_amd64_9074816b745183b4) bem sucedido.
+Exclusão de oem5.inf (nvvad.inf_amd64_74667003396014ef) bem sucedido.
+Exclusão de oem14.inf (nvppc.inf_amd64_0fb3e9fb3fdb0d20) bem sucedido.
+Falha ao excluir oem0.inf (prnms009.inf_amd64_8cdc889b3f73e3da).
+
+2026-05-09 00:33:22Z [Information]: Shutting down - reason UserClosing
+2026-05-12 00:13:58Z [Information]: ---------------------------------------------------------------
+2026-05-12 00:13:58Z [Information]: Rapr started
+2026-05-12 00:13:58Z [Information]: Verificando armazenamento de drivers...
+2026-05-12 00:13:58Z [Information]: 16 pacote(s) de driver encontrado(s)
+2026-05-12 00:14:30Z [Information]: Shutting down - reason UserClosing
