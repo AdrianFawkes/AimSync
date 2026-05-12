@@ -5,7 +5,7 @@ setlocal enabledelayedexpansion
 chcp 65001 >nul
 
 :: Redimensiona o console e altera o titulo
-mode con: cols=80 lines=25
+mode con: cols=120 lines=32
 title AimSync
 
 :warning
@@ -36,24 +36,29 @@ goto menu
 :menu
 cls
 color 0A
-echo      ╔════════════════════════════════════════════════════════════════╗
-echo      ║                                                                ║
-echo      ║                          ‹ AimSync ›                           ║
-echo      ║                          1.02 Stable                           ║
-echo      ║                                                                ║
-echo      ║                   [1] HIGH-END TWEAKS                          ║
-echo      ║                   [2] MID-END TWEAKS                           ║
-echo      ║                   [3] RAM ALLOCATION                           ║
-echo      ║                   [4] DISABLE GAMING OVERLAY                   ║
-echo      ║                   [5] TOOLBOX                                  ║
-echo      ║                   [6] POWER PLAN                               ║
-echo      ║                   [7] TIMER RESOLUTION                         ║
-echo      ║                   [8] ROUTE OPTIMIZER                          ║
-echo      ║                                                                ║
-echo      ║                script created by Adrian Fawkes                 ║
-echo      ╚════════════════════════════════════════════════════════════════╝
+echo      ╔══════════════════════════════════════════════════════════════════════════════════════════════════╗
+echo      ║                                                                                                  ║
+echo      ║                     █████╗ ██╗███╗   ███╗███████╗██╗   ██╗███╗   ██╗ ██████╗                     ║
+echo      ║                    ██╔══██╗██║████╗ ████║██╔════╝╚██╗ ██╔╝████╗  ██║██╔════╝                     ║
+echo      ║                    ███████║██║██╔████╔██║███████╗ ╚████╔╝ ██╔██╗ ██║██║                          ║
+echo      ║                    ██╔══██║██║██║╚██╔╝██║╚════██║  ╚██╔╝  ██║╚██╗██║██║                          ║
+echo      ║                    ██║  ██║██║██║ ╚═╝ ██║███████║   ██║   ██║ ╚████║╚██████╗                     ║
+echo      ║                    ╚═╝  ╚═╝╚═╝╚═╝     ╚═╝╚══════╝   ╚═╝   ╚═╝  ╚═══╝ ╚═════╝                     ║
+echo      ║                                                                                                  ║
+echo      ║                                           1.02 Stable                                            ║
+echo      ║                                                                                                  ║
+echo      ║                           [1] HIGH-END TWEAKS              [5] TOOLBOX                           ║
+echo      ║                         [2] MID-END TWEAKS               [6] POWER PLAN                          ║
+echo      ║                      [3] RAM ALLOCATION               [7] TIMER RESOLUTION                       ║
+echo      ║                       [4] DISABLE GAMING OVERLAY       [8] ROUTE OPTIMIZER                       ║
+echo      ║                                                                                                  ║
+echo      ║                                 script created by Adrian Fawkes                                  ║
+echo      ╚══════════════════════════════════════════════════════════════════════════════════════════════════╝
 echo.
 set /p choice=" • SELECT AN OPTION: "
+
+
+
 
 
 
