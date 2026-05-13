@@ -47,15 +47,16 @@ echo      ║                    ╚═╝  ╚═╝╚═╝╚═╝     ╚�
 echo      ║                                                                                                  ║
 echo      ║                                           1.02 Stable                                            ║
 echo      ║                                                                                                  ║
-echo      ║                           [1] LATENCY PRESET              [5] TOOLBOX                           ║
-echo      ║                         [2] STABILITY PRESET               [6] POWER PLAN                          ║
-echo      ║                      [3] RAM ALLOCATION               [7] TIMER RESOLUTION                       ║
-echo      ║                       [4] DISABLE GAMING OVERLAY       [8] ROUTE OPTIMIZER                       ║
+echo      ║                    [1] LATENCY PRESET                        [5] TOOLBOX                         ║
+echo      ║                    [2] STABILITY PRESET                      [6] POWER PLAN                      ║
+echo      ║                    [3] RAM ALLOCATION                        [7] TIMER RESOLUTION                ║
+echo      ║                    [4] DISABLE GAMING OVERLAY                [8] ROUTE OPTIMIZER                 ║
 echo      ║                                                                                                  ║
 echo      ║                                 script created by Adrian Fawkes                                  ║
 echo      ╚══════════════════════════════════════════════════════════════════════════════════════════════════╝
 echo.
 set /p choice=" • SELECT AN OPTION: "
+
 
 
 
